@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    height: 70px;
+    background-color: aqua;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0px 40px;
+    transition: 1s all;
+}
+
+header .nightBox{
+    border: 2px solid black;
+    width: 40px;
+    height: 22px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    transition: 1s all;
+}
+
+header .nightBox .btn{
+    height: 15px;
+    width: 15px;
+    background-color: brown;
+    border-radius: 100px;
+    cursor: pointer;
+    position: relative;
+    transition: 1s all;
+    
+}
+header .nightBox .btn2{
+    height: 15px;
+    width: 15px;
+    background-color: brown;
+    border-radius: 100px;
+    cursor: pointer;
+    position: relative;
+    transition: 1s all;
+    left: 22px;
+    transition: 1s all;
+}
+section{
+    height: 90vh;
+    transition: 1s all;
+}
+.section{
+    height: 90vh;
+    background-color: blue;
+    transition: 1s all;
+}
